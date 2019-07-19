@@ -47,14 +47,14 @@ Aria-telegram-mirror-bot is now written in TypeScript. If you are migrating from
 2. Clone the repo:
 
    ```bash
-   git clone https://github.com/out386/aria-telegram-mirror-bot
+   git clone https://github.com/foxcornlab/aria-telegram-mirror-bot
    cd aria-telegram-mirror-bot
    ```
 
 3. Run `npm install`
 
 4. Copy the example files:
-
+   Don't do this for this respo,
    ```bash
    cp src/.constants.js.example src/.constants.js
    cp aria.sh.example aria.sh
