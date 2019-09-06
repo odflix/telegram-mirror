@@ -1,13 +1,13 @@
 module.exports = Object.freeze({
-  TOKEN: '733462745:AAHm9FIBR-Qd_M5PnvnkEPbMA5lxlLE_MSI',
+  TOKEN: '944690045:AAF84agW_7SDde0u2Gr1uDbIZrhpxr-Kjt0',
   ARIA_SECRET: 'password',
-  ARIA_DOWNLOAD_LOCATION: '/home/greatindianparody/aria-telegram-mirror-bot/downloads',
+  ARIA_DOWNLOAD_LOCATION: '/home/root/aria-telegram-mirror-bot/downloads',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
   ARIA_FILTERED_DOMAINS: [], // Prevent downloading from URLs containing these substrings
   ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded
-  GDRIVE_PARENT_DIR_ID: '1cpFPijI6AnRQNWsakt1NUYw1oniASICT',
-  SUDO_USERS: [658490863],	// Telegram user IDs. These users can use the bot in any chat.
-  AUTHORIZED_CHATS: [346535810],	// Telegram chat IDs. Anyone in these chats can use the bot.
+  GDRIVE_PARENT_DIR_ID: '1wMaGpA4vCCQ7Up7ZqYkl5v4X6ljsiZvA',
+  SUDO_USERS: [658490863,544211675],	// Telegram user IDs. These users can use the bot in any chat.
+  AUTHORIZED_CHATS: [-346535810,],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
