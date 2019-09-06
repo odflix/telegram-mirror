@@ -1,0 +1,8 @@
+{
+  "buildpacks": [{
+  	"url": "heroku/nodejs"
+  },{
+    "url":"https://github.com/amivin/aria2-heroku.git"
+  }]
+}  
+  
